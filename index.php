@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -125,179 +126,282 @@
             </div>
         </section>
 
+        <!-- PROJECTS -->
+        <section class="section projects" id="projects">
+            <div class="container">
+                <p class="eyebrow">A FEW THINGS I'VE BUILT</p>
+                <h2 class="section-title">My <span>Projects</span></h2>
 
-<!-- PROJECTS -->
-<section class="section projects" id="projects">
-    <div class="container">
-        <p class="eyebrow">A FEW THINGS I'VE BUILT</p>
-        <h2 class="section-title">My <span>Projects</span></h2>
+                <p class="section-intro">
+                    Explore my websites and creative projects.
+                </p>
 
-        <p class="section-intro">
-            Explore my websites and creative projects.
-        </p>
+                <!-- FIRST 6 PROJECTS -->
+                <div class="project-grid">
 
-        <div class="project-grid">
+                    <!-- PROJECT 1: STREETFLEX -->
+                    <article class="project-card">
+                        <div class="live-preview">
+                            <a href="https://streetflex.vercel.app/index.html"
+                               target="_blank" rel="noopener noreferrer"
+                               aria-label="Visit StreetFlex website">
+                                <img src="images/streetflex.jpg"
+                                     alt="Screenshot preview of the StreetFlex website">
+                            </a>
+                        </div>
 
-            <!-- PROJECT 1: STREETFLEX -->
-            <article class="project-card">
-                <div class="live-preview">
-                    <a href="https://streetflex.vercel.app/index.html"
-                       target="_blank" rel="noopener noreferrer"
-                       aria-label="Visit StreetFlex website">
-                        <img src="images/streetflex.jpg"
-                             alt="Screenshot preview of the StreetFlex website">
-                    </a>
+                        <div class="project-body">
+                            <p class="project-category">WEB DEVELOPMENT</p>
+                            <h3>StreetFlex</h3>
+                            <p>
+                                A website I developed, showcasing my web
+                                design and development skills.
+                            </p>
+                            <a href="https://streetflex.vercel.app/index.html"
+                               target="_blank" rel="noopener noreferrer"
+                               class="project-link">
+                                Visit StreetFlex ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 2: CARSELL -->
+                    <article class="project-card">
+                        <div class="live-preview">
+                            <a href="https://carsell-seven.vercel.app/home"
+                               target="_blank" rel="noopener noreferrer"
+                               aria-label="Visit CarSell website">
+                                <img src="images/carsell.jpg"
+                                     alt="Screenshot preview of the CarSell website">
+                            </a>
+                        </div>
+
+                        <div class="project-body">
+                            <p class="project-category">WEB APPLICATION</p>
+                            <h3>CarSell</h3>
+                            <p>
+                                A car selling website built with React, showcasing
+                                my front-end development skills.
+                            </p>
+                            <a href="https://carsell-seven.vercel.app/home"
+                               target="_blank" rel="noopener noreferrer"
+                               class="project-link">
+                                Visit CarSell ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 3: GENSHIN IMPACT GUIDE -->
+                    <article class="project-card">
+                        <div class="live-preview">
+                            <a href="https://iframe-website-rbvd.vercel.app/"
+                               target="_blank" rel="noopener noreferrer"
+                               aria-label="Visit Genshin Impact Guide website">
+                                <img src="images/genshin.png"
+                                     alt="Genshin Impact Guide website preview">
+                            </a>
+                        </div>
+
+                        <div class="project-body">
+                            <p class="project-category">WEB DEVELOPMENT</p>
+                            <h3>Genshin Impact Guide</h3>
+                            <p>
+                                A Genshin Impact guide website featuring
+                                character information, weapons, events,
+                                news, trailers, and useful game resources.
+                            </p>
+                            <a href="https://iframe-website-rbvd.vercel.app/"
+                               target="_blank" rel="noopener noreferrer"
+                               class="project-link">
+                                Visit Genshin Guide ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 4: BLENDER 3D ENVIRONMENT -->
+                    <article class="project-card">
+                        <div class="live-preview">
+                            <a href="images/board.gif"
+                               target="_blank" rel="noopener noreferrer"
+                               aria-label="View Blender 3D environment">
+                                <img src="images/board.gif"
+                                     alt="Blender 3D floating island environment">
+                            </a>
+                        </div>
+
+                        <div class="project-body">
+                            <p class="project-category">3D ART / BLENDER</p>
+                            <h3>Floating Island Environment</h3>
+                            <p>
+                                A 3D environment created using Blender,
+                                featuring a floating island, rocky mountains,
+                                vegetation, trees, and a small ancient temple.
+                            </p>
+                            <a href="images/board.gif"
+                               target="_blank" rel="noopener noreferrer"
+                               class="project-link">
+                                View Full Project ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 5: FIGMA 1 -->
+                    <article class="project-card">
+                        <div class="live-preview">
+                            <a href="images/figma1v.gif"
+                               target="_blank" rel="noopener noreferrer"
+                               aria-label="View Figma design 1">
+                                <img src="images/figma1v.gif"
+                                     alt="Figma UI design preview 1">
+                            </a>
+                        </div>
+
+                        <div class="project-body">
+                            <p class="project-category">UI DESIGN / FIGMA</p>
+                            <h3>Figma Design 1</h3>
+                            <p>
+                                A UI design prototype created in Figma.
+                            </p>
+                            <a href="images/figma1v.gif"
+                               target="_blank" rel="noopener noreferrer"
+                               class="project-link">
+                                View Full Project ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 6: FIGMA 2 -->
+                    <article class="project-card">
+                        <div class="live-preview">
+                            <a href="images/figma2v.gif"
+                               target="_blank" rel="noopener noreferrer"
+                               aria-label="View Figma design 2">
+                                <img src="images/figma2v.gif"
+                                     alt="Figma UI design preview 2">
+                            </a>
+                        </div>
+
+                        <div class="project-body">
+                            <p class="project-category">UI DESIGN / FIGMA</p>
+                            <h3>Figma Design 2</h3>
+                            <p>
+                                A UI design prototype created in Figma.
+                            </p>
+                            <a href="images/figma2v.gif"
+                               target="_blank" rel="noopener noreferrer"
+                               class="project-link">
+                                View Full Project ↗
+                            </a>
+                        </div>
+                    </article>
+
                 </div>
 
-                <div class="project-body">
-                    <p class="project-category">WEB DEVELOPMENT</p>
-                    <h3>StreetFlex</h3>
-                    <p>
-                        A website I developed, showcasing my web
-                        design and development skills.
-                    </p>
-                    <a href="https://streetflex.vercel.app/index.html"
-                       target="_blank" rel="noopener noreferrer"
-                       class="project-link">
-                        Visit StreetFlex ↗
-                    </a>
-                </div>
-            </article>
+                <!-- GRAPHICS DESIGN PROJECTS -->
+                <div class="graphics-section">
 
-            <!-- PROJECT 2: CARSELL -->
-            <article class="project-card">
-                <div class="live-preview">
-                    <a href="https://carsell-seven.vercel.app/home"
-                       target="_blank" rel="noopener noreferrer"
-                       aria-label="Visit CarSell website">
-                        <img src="images/carsell.jpg"
-                             alt="Screenshot preview of the CarSell website">
-                    </a>
-                </div>
+                    <div class="graphics-heading">
+                        <h3>Graphics <span>Design</span></h3>
+                        <p class="section-intro">
+                            Explore my graphic design projects.
+                        </p>
+                    </div>
 
-                <div class="project-body">
-                    <p class="project-category">WEB APPLICATION</p>
-                    <h3>CarSell</h3>
-                    <p>
-                        A car selling website built with React, showcasing
-                        my front-end development skills.
-                    </p>
-                    <a href="https://carsell-seven.vercel.app/home"
-                       target="_blank" rel="noopener noreferrer"
-                       class="project-link">
-                        Visit CarSell ↗
-                    </a>
-                </div>
-            </article>
+                    <div class="graphics-slider">
 
-            <!-- PROJECT 3: GENSHIN IMPACT GUIDE -->
-            <article class="project-card">
-                <div class="live-preview">
-                    <a href="https://iframe-website-rbvd.vercel.app/"
-                       target="_blank" rel="noopener noreferrer"
-                       aria-label="Visit Genshin Impact Guide website">
-                        <img src="images/genshin.png"
-                             alt="Genshin Impact Guide website preview">
-                    </a>
-                </div>
+                        <div class="graphics-card">
+                            <div class="graphics-preview">
+                                <img src="images/p1.png"
+                                     alt="Graphics Design Project 1"
+                                     onclick="openGraphicsPreview(0)">
+                            </div>
+                            <div class="graphics-card-body">
+                                <h4>Graphics Design Project</h4>
+                            </div>
+                        </div>
 
-                <div class="project-body">
-                    <p class="project-category">WEB DEVELOPMENT</p>
-                    <h3>Genshin Impact Guide</h3>
-                    <p>
-                        A Genshin Impact guide website featuring
-                        character information, weapons, events,
-                        news, trailers, and useful game resources.
-                    </p>
-                    <a href="https://iframe-website-rbvd.vercel.app/"
-                       target="_blank" rel="noopener noreferrer"
-                       class="project-link">
-                        Visit Genshin Guide ↗
-                    </a>
-                </div>
-            </article>
+                        <div class="graphics-card">
+                            <div class="graphics-preview">
+                                <img src="images/p2.png"
+                                     alt="Graphics Design Project 2"
+                                     onclick="openGraphicsPreview(1)">
+                            </div>
+                            <div class="graphics-card-body">
+                                <h4>Graphics Design Project</h4>
+                            </div>
+                        </div>
 
-            <!-- PROJECT 4: BLENDER 3D ENVIRONMENT -->
-            <article class="project-card">
-                <div class="live-preview">
-                    <a href="images/board.gif"
-                       target="_blank" rel="noopener noreferrer"
-                       aria-label="View Blender 3D environment">
-                        <img src="images/board.gif"
-                             alt="Blender 3D floating island environment">
-                    </a>
-                </div>
+                        <div class="graphics-card">
+                            <div class="graphics-preview">
+                                <img src="images/p3.png"
+                                     alt="Graphics Design Project 3"
+                                     onclick="openGraphicsPreview(2)">
+                            </div>
+                            <div class="graphics-card-body">
+                                <h4>Graphics Design Project</h4>
+                            </div>
+                        </div>
 
-                <div class="project-body">
-                    <p class="project-category">3D ART / BLENDER</p>
-                    <h3>Floating Island Environment</h3>
-                    <p>
-                        A 3D environment created using Blender,
-                        featuring a floating island, rocky mountains,
-                        vegetation, trees, and a small ancient temple.
-                    </p>
-                    <a href="images/board.gif"
-                       target="_blank" rel="noopener noreferrer"
-                       class="project-link">
-                        View Full Project ↗
-                    </a>
-                </div>
-            </article>
+                        <div class="graphics-card">
+                            <div class="graphics-preview">
+                                <img src="images/p4.png"
+                                     alt="Graphics Design Project 4"
+                                     onclick="openGraphicsPreview(3)">
+                            </div>
+                            <div class="graphics-card-body">
+                                <h4>Graphics Design Project</h4>
+                            </div>
+                        </div>
 
-            <!-- PROJECT 5: FIGMA 1 -->
-            <article class="project-card">
-                <div class="live-preview">
-                    <a href="images/figma1v.gif"
-                       target="_blank" rel="noopener noreferrer"
-                       aria-label="View Figma design 1">
-                        <img src="images/figma1v.gif"
-                             alt="Figma UI design preview 1">
-                    </a>
+                        <div class="graphics-card">
+                            <div class="graphics-preview">
+                                <img src="images/p5.png"
+                                     alt="Graphics Design Project 5"
+                                     onclick="openGraphicsPreview(4)">
+                            </div>
+                            <div class="graphics-card-body">
+                                <h4>Graphics Design Project</h4>
+                            </div>
+                        </div>
+
+                        <div class="graphics-card">
+                            <div class="graphics-preview">
+                                <img src="images/p6.jpg"
+                                     alt="Graphics Design Project 6"
+                                     onclick="openGraphicsPreview(5)">
+                            </div>
+                            <div class="graphics-card-body">
+                                <h4>Graphics Design Project</h4>
+                            </div>
+                        </div>
+
+                        <div class="graphics-card">
+                            <div class="graphics-preview">
+                                <img src="images/p7.jpg"
+                                     alt="Graphics Design Project 7"
+                                     onclick="openGraphicsPreview(6)">
+                            </div>
+                            <div class="graphics-card-body">
+                                <h4>Graphics Design Project</h4>
+                            </div>
+                        </div>
+
+                        <div class="graphics-card">
+                            <div class="graphics-preview">
+                                <img src="images/p8.jpg"
+                                     alt="Graphics Design Project 8"
+                                     onclick="openGraphicsPreview(7)">
+                            </div>
+                            <div class="graphics-card-body">
+                                <h4>Graphics Design Project</h4>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
-                <div class="project-body">
-                    <p class="project-category">UI DESIGN / FIGMA</p>
-                    <h3>Figma Design 1</h3>
-                    <p>
-                        A UI design prototype created in Figma.
-                    </p>
-                    <a href="images/figma1v.gif"
-                       target="_blank" rel="noopener noreferrer"
-                       class="project-link">
-                        View Full Project ↗
-                    </a>
-                </div>
-            </article>
-
-            <!-- PROJECT 6: FIGMA 2 -->
-            <article class="project-card">
-                <div class="live-preview">
-                    <a href="images/figma2v.gif"
-                       target="_blank" rel="noopener noreferrer"
-                       aria-label="View Figma design 2">
-                        <img src="images/figma2v.gif"
-                             alt="Figma UI design preview 2">
-                    </a>
-                </div>
-
-                <div class="project-body">
-                    <p class="project-category">UI DESIGN / FIGMA</p>
-                    <h3>Figma Design 2</h3>
-                    <p>
-                        A UI design prototype created in Figma.
-                    </p>
-                    <a href="images/figma2v.gif"
-                       target="_blank" rel="noopener noreferrer"
-                       class="project-link">
-                        View Full Project ↗
-                    </a>
-                </div>
-            </article>
-
-        </div>
-    </div>
-</section>
-
+            </div>
+        </section>
 
         <!-- CONTACT -->
         <section class="section contact" id="contact">
@@ -368,6 +472,45 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+        <!-- GRAPHICS IMAGE LIGHTBOX -->
+    <div class="graphics-lightbox"
+         id="graphicsLightbox"
+         onclick="closeGraphicsPreview(event)"
+         role="dialog"
+         aria-modal="true"
+         aria-label="Graphics design image preview">
+
+        <!-- CLOSE BUTTON -->
+        <button type="button"
+                class="lightbox-close"
+                onclick="closeGraphicsPreview(event)"
+                aria-label="Close image preview">
+            &times;
+        </button>
+
+        <!-- PREVIOUS IMAGE -->
+        <button type="button"
+                class="lightbox-nav lightbox-prev"
+                onclick="changeGraphicsImage(-1, event)"
+                aria-label="Previous image">
+            &#10094;
+        </button>
+
+        <!-- FULL-SIZE IMAGE -->
+        <img id="lightboxImage"
+             src=""
+             alt="Full-size graphics design preview">
+
+        <!-- NEXT IMAGE -->
+        <button type="button"
+                class="lightbox-nav lightbox-next"
+                onclick="changeGraphicsImage(1, event)"
+                aria-label="Next image">
+            &#10095;
+        </button>
+
+    </div>
+
+    <script src="script.js?v=5"></script>
 </body>
 </html>
